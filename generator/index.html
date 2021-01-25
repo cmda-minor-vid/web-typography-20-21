@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Generate caption times</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<h1>Copy paste your SRT-file:</h1>
+	<p>You can <a href="https://downsub.com/">get srt files from closed caption via Downsub</a></p>
+	<div class="wrapper">
+		<textarea id="source">
+1
+00:00:01,000 --> 00:00:04,000
+Descargados de www.AllSubs.org
+
+2
+00:00:49,581 --> 00:00:52,049
+Bueno, tienes que escapar, tengo que ir a jugar
+
+3
+00:00:52,084 --> 00:00:55,178
+Tengo que encontrar un día que está lleno de nada más que sol
+
+4
+00:00:55,220 --> 00:00:57,552
+Crucero por la calle, moviéndose al compás
+
+5
+00:00:57,589 --> 00:01:00,683
+Todos los que conoces está teniendo nada más que diversión
+
+6
+00:01:00,726 --> 00:01:03,251
+Deja todo detrás de ti
+
+7
+00:01:03,295 --> 00:01:06,128
+Siente esas palmeras soplan
+
+8
+00:01:06,165 --> 00:01:09,157
+
+
+9
+00:01:09,201 --> 00:01:11,829
+Están fuera de palear la nieve
+
+10
+00:01:11,870 --> 00:01:14,998
+El tiempo para moverse, pero no seas lento
+
+11
+00:01:15,040 --> 00:01:17,941
+En sus marcas, prepárate para ir</textarea>
+		<button id="doParse">Do Parse</button>
+	  </div>
+	  
+	  <div class="wrapper">
+		  <h2>Now copy this code and paste it into the captions.js file</h2>
+	  <textarea id="result">
+		  
+	  </textarea>
+	  <h2>And finally replace the paragraphs in index.html with these ones.</h2>
+	  <p>And set the appropriate classes on each paragraph.</p>
+	  <textarea id="paras"></textarea>
+	  </div>
+	  <script src="jquery.js"></script>
+	  <script src="js.js"></script>
+</body>
+</html>
