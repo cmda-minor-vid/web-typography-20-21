@@ -94,3 +94,23 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+/* The moment the class .sound1 is added to the body, the background is yellow */
+.sound1 {
+	background: yellow;
+}
+
+iframe {
+	transition: 1s;
+}
+/* The moment the class .sound1 is added to the body, the movie makes a turn */
+.sound1 iframe {
+	transform: rotate(1turn);
+}
