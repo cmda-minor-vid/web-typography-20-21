@@ -51,6 +51,7 @@ Feel free to adjust the defaults to your needs.
 .voice3 {
   font-family: "Brenner Display Black";
   font-size: 3em;
+  color: #E13120;
 }
 
 /* **********************************************
@@ -132,3 +133,16 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
+.sound5 {
+  background-color: #A19E94;
+  transition: 1s;
+}
+
+.sound9 {
+  background-color: #DEDECA;
+  transition: 1s 1s;
+}
+
+.sound9 p {
+  color: black;
+}
