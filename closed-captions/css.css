@@ -6,9 +6,17 @@ body p {
   color: white;
 }
 
-#video-placeholder {}
+#video-placeholder {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  display: block
+}
 
-#closed-captions {}
+#closed-captions {
+  display: flex;
+  justify-content: center;
+}
 
 /* **********************************************
 Basic mechanics
