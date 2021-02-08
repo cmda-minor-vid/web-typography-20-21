@@ -143,6 +143,18 @@ Sounds.
   transition: 1s 1s;
 }
 
+.sound9 #video-placeholder {
+  width: 500px;
+  height: 300px;
+  transition-duration: 42s;
+}
+
 .sound9 p {
   color: black;
+}
+
+.sound11 #video-placeholder {
+  width: 600px;
+  height: 400px;
+  transition-duration: 1s;
 }
