@@ -51,18 +51,11 @@ Feel free to adjust the defaults to your needs.
 
 .voice3 {
   font-family: "Brenner Display Black";
-  font-size: 3em;
   color: #E13120;
 }
 
-/* Blood-black nothingness */
-.p3.on span:nth-of-type(2) {
-  color: #701911;
-}
-
-/* In the dark */
-.p7.on span:nth-of-type(6) {
-  color: black;
+.p6.on span:first-of-type {
+  font-size: 1.1em;
 }
 
 /* **********************************************
