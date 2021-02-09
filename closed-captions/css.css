@@ -128,10 +128,12 @@ You probably want to change the styling.
   transition: 0s 3.7s;
 }
 
+/* Blood-black nothingness */
 .p3.on span:nth-of-type(2) {
   color: #701911;
 }
 
+/* In the dark */
 .p7.on span:nth-of-type(6) {
   color: black;
 }
@@ -142,16 +144,19 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
+/* Verandering achtergrond */
 .sound5 {
   background-color: #A19E94;
   transition: 1s;
 }
 
+/* Verandering achtergrond */
 .sound9 {
   background-color: #DEDECA;
   transition: 1s 1s;
 }
 
+/* "Animatie" video kleiner maken */
 .sound9 #video-placeholder {
   width: 450px;
   height: 250px;
