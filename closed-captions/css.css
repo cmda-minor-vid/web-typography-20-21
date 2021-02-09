@@ -144,30 +144,70 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
+.sound1 #video-placeholder {
+  box-shadow: 0 0 15px 10px #E13120;
+  transition-duration: 0.5s;
+}
+
+.sound2 #video-placeholder {
+  box-shadow: 0 0 0 0;
+  transition-duration: 0.5s;
+}
+
+.sound4 #video-placeholder {
+  box-shadow: 0 0 15px 10px #E13120;
+  transition-duration: 0.8s;
+}
+
+.sound5 #video-placeholder {
+  box-shadow: 0 0 0 0;
+  transition: 1s 0.5s;
+}
+
 /* Verandering achtergrond */
-.sound5 {
+.sound6 {
   background-color: #A19E94;
   transition: 1s;
 }
 
+.sound7 #video-placeholder {
+  box-shadow: 0 0 15px 10px #E13120;
+  transition-duration: 0.8s;
+}
+
+.sound8 #video-placeholder {
+  box-shadow: 0 0 0 0;
+  transition-duration: 1s;
+}
+
+.sound9 #video-placeholder {
+  box-shadow: 0 0 15px 10px #E13120;
+  transition-duration: 0.8s;
+}
+
+.sound10 #video-placeholder {
+  box-shadow: 0 0 0 0;
+  transition: 0.5s 1s;
+}
+
 /* Verandering achtergrond */
-.sound9 {
+.sound11 {
   background-color: #DEDECA;
   transition: 1s 1s;
 }
 
 /* "Animatie" video kleiner maken */
-.sound9 #video-placeholder {
+.sound11 #video-placeholder {
   width: 450px;
   height: 250px;
   transition-duration: 42s;
 }
 
-.sound9 p {
+.sound11 p {
   color: black;
 }
 
-.sound11 #video-placeholder {
+.sound13 #video-placeholder {
   width: 600px;
   height: 400px;
   transition-duration: 1s;
