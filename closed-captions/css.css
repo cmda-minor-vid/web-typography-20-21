@@ -58,6 +58,14 @@ Feel free to adjust the defaults to your needs.
   font-size: 1.1em;
 }
 
+.p6.off {
+  transition: 3s;
+}
+
+.p45.on {
+  color: #1EB738;
+}
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can
