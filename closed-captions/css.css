@@ -139,14 +139,30 @@ Sounds.
   width: 450px;
   height: 250px;
   transition-duration: 42s;
+  transition-timing-function: ease-in;
 }
 
 .sound11 p {
   color: black;
 }
 
-.sound28 #video-placeholder {
+.sound12 #video-placeholder {
+  /* animation-duration: 0.5s;
+  animation-name: click; */
+}
+
+.sound27 #video-placeholder {
   width: 600px;
   height: 400px;
   transition-duration: 1s;
+}
+
+@keyframes click {
+  from {
+    box-shadow: 0 0 0 0;
+  }
+
+  to {
+    box-shadow: 0 0 10px 7px #000000;
+  }
 }
