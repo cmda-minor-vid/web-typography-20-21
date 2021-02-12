@@ -50,20 +50,30 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice3 {
-  font-family: "Brenner Display Black";
-  color: #E13120;
+  font-family: "Brenner Sans Condensed Medium";
+}
+
+/* Beta moment */
+.p1.on {
+  font-size: 1.05em;
+}
+
+.p6.on {
+  box-shadow: 0 0 30px 20px #E13120;
+  font-size: 0.95em;
 }
 
 .p6.on span:first-of-type {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .p6.off {
-  transition: 3s;
+  transition: 4s;
 }
 
 .p45.on {
-  color: #1EB738;
+  box-shadow: 0 0 15px 10px #1EB738;
+  transition-duration: 1s;
 }
 
 /* **********************************************
@@ -109,13 +119,13 @@ Sounds.
 }
 
 .sound9 #video-placeholder {
-  box-shadow: 0 0 15px 10px #E13120;
-  transition-duration: 0.8s;
+  box-shadow: 0 0 25px 20px #E13120;
+  transition: 0.5s 0.8s;
 }
 
 .sound10 #video-placeholder {
   box-shadow: 0 0 0 0;
-  transition: 0.5s 1s;
+  transition: 1.5s 1.1s;
 }
 
 /* Verandering achtergrond */
@@ -139,4 +149,9 @@ Sounds.
   width: 600px;
   height: 400px;
   transition-duration: 1s;
+}
+
+.sound15 {
+  background-color: #84ABAA;
+  transition: 1s 1s;
 }
