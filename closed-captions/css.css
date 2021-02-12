@@ -50,7 +50,7 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice3 {
-  font-family: "Brenner Sans Condensed Medium";
+  font-family: "Brenner Sans Condensed Regular";
 }
 
 /* Beta moment */
@@ -145,13 +145,8 @@ Sounds.
   color: black;
 }
 
-.sound13 #video-placeholder {
+.sound28 #video-placeholder {
   width: 600px;
   height: 400px;
   transition-duration: 1s;
-}
-
-.sound15 {
-  background-color: #84ABAA;
-  transition: 1s 1s;
 }
