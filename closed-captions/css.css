@@ -142,6 +142,10 @@ Sounds.
   color: black;
 }
 
+.sound11 .voice1 {
+  font-size: 1.35em;
+}
+
 /* "Animatie" video kleiner maken */
 .sound11 #video-placeholder {
   width: 450px;
