@@ -244,3 +244,15 @@ Sounds.
     box-shadow: 0 0 10px 8px #000000;
   }
 }
+
+@keyframes tension {
+  from {
+    background: rgb(222, 222, 202);
+    background: radial-gradient(circle, rgba(222, 222, 202, 1) 0%, rgba(222, 222, 202, 1) 100%);
+  }
+
+  to {
+    background: rgb(222, 222, 202);
+    background: radial-gradient(circle, rgba(222, 222, 202, 1) 0%, rgba(0, 0, 0, 1) 80%);
+  }
+}
