@@ -63,12 +63,9 @@ Feel free to adjust the defaults to your needs.
   font-size: 1em;
 }
 
-.p6.on span:first-of-type {
-  font-size: 1em;
-}
-
 .p6.off {
   transition: 4s;
+  opacity: 0;
 }
 
 .p45.on {
@@ -144,6 +141,10 @@ Sounds.
 
 .sound11 .voice1 {
   font-size: 1.35em;
+}
+
+.sound11 .voice2 {
+  font-size: 1.05em;
 }
 
 /* "Animatie" video kleiner maken */
