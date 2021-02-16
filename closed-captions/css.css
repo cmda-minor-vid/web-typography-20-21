@@ -140,7 +140,7 @@ Sounds.
 }
 
 .sound11 .voice1 {
-  font-size: 1.35em;
+  font-size: 1.30em;
 }
 
 .sound11 .voice2 {
@@ -152,6 +152,13 @@ Sounds.
   width: 450px;
   height: 250px;
   transition-duration: 42s;
+  transition-timing-function: ease-in;
+}
+
+/* Maakt achtergrond donkerder */
+.sound12 {
+  background-color: #626662;
+  transition-duration: 41s;
   transition-timing-function: ease-in;
 }
 
@@ -235,13 +242,22 @@ Sounds.
   transition-duration: 1s;
 }
 
+.sound27 {
+  background-color: #DEDECA;
+  transition-duration: 1s;
+}
+
 @keyframes click {
   from {
-    box-shadow: 0 0 0 0;
+    background-color: #DEDECA;
+  }
+
+  50% {
+    background-color: white;
   }
 
   to {
-    box-shadow: 0 0 10px 8px #000000;
+    background-color: #DEDECA;
   }
 }
 
