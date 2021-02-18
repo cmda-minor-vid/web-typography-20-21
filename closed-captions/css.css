@@ -192,8 +192,9 @@ Sounds.
 }
 
 .sound5 #video-placeholder {
-  box-shadow: 0 0 15px 10px #E13120;
-  transition-duration: 0.8s;
+  box-shadow: 0 0 20px 15px #E13120;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(.14, .44, 1, .65);
 }
 
 .sound5 #audio-captions1 {
@@ -222,8 +223,9 @@ Sounds.
 }
 
 .sound8 #video-placeholder {
-  box-shadow: 0 0 15px 10px #E13120;
-  transition-duration: 0.8s;
+  box-shadow: 0 0 17px 13px #E13120;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(.14, .44, 1, .65);
 }
 
 .sound8 #audio-captions1 {
