@@ -19,11 +19,17 @@ body p {
   justify-content: center;
 }
 
-#audio-captions {
+#audio-captions1 {
   display: flex;
   justify-content: center;
   opacity: 0;
-  margin-top: 30px;
+  margin-top: 35px;
+}
+
+#audio-captions2 {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
 }
 
 /* **********************************************
@@ -151,7 +157,7 @@ Sounds.
   transition-duration: 0.5s;
 }
 
-.sound1 #audio-captions {
+.sound1 #audio-captions1 {
   opacity: 1;
   transition-duration: 0.5s;
 }
@@ -161,7 +167,7 @@ Sounds.
   transition-duration: 0.5s;
 }
 
-.sound2 #audio-captions {
+.sound2 #audio-captions1 {
   opacity: 0;
   transition-duration: 0.5s;
 }
@@ -171,7 +177,7 @@ Sounds.
   transition-duration: 0.6s;
 }
 
-.sound3 #audio-captions {
+.sound3 #audio-captions1 {
   opacity: 1;
   transition-duration: 0.6s;
 }
@@ -181,7 +187,7 @@ Sounds.
   transition-duration: 0.5s;
 }
 
-.sound4 #audio-captions {
+.sound4 #audio-captions1 {
   opacity: 0;
   transition-duration: 0.5s;
 }
@@ -191,7 +197,7 @@ Sounds.
   transition-duration: 0.8s;
 }
 
-.sound5 #audio-captions {
+.sound5 #audio-captions1 {
   opacity: 1;
   transition-duration: 0.8s;
 }
@@ -201,7 +207,7 @@ Sounds.
   transition: 1s 0.5s;
 }
 
-.sound6 #audio-captions {
+.sound6 #audio-captions1 {
   opacity: 0;
   transition: 1s 0.5s;
 }
@@ -221,7 +227,7 @@ Sounds.
   transition-duration: 0.8s;
 }
 
-.sound8 #audio-captions {
+.sound8 #audio-captions1 {
   opacity: 1;
   transition-duration: 0.8s;
 }
@@ -231,7 +237,7 @@ Sounds.
   transition-duration: 1s;
 }
 
-.sound9 #audio-captions {
+.sound9 #audio-captions1 {
   opacity: 0;
   transition-duration: 0.1s;
 }
@@ -241,7 +247,7 @@ Sounds.
   transition: 0.5s 0.8s;
 }
 
-.sound10 #audio-captions {
+.sound10 #audio-captions1 {
   opacity: 1;
   transition: 0.5s 0.8s;
 }
@@ -251,7 +257,7 @@ Sounds.
   transition: 1.5s 1.1s;
 }
 
-.sound11 #audio-captions {
+.sound11 #audio-captions1 {
   opacity: 0;
   transition: 1.5s 1.1s;
 }
@@ -289,10 +295,20 @@ Sounds.
   transition-timing-function: cubic-bezier(.82, .19, .86, .56);
 }
 
+.sound13 #audio-captions2 {
+  opacity: 1;
+  transition-duration: 0.1s;
+}
+
 .sound28 #video-placeholder {
   width: 600px;
   height: 400px;
   transition-duration: 0.5s;
+}
+
+.sound28 #audio-captions2 {
+  opacity: 0;
+  transition-duration: 0.1s;
 }
 
 .sound28 {
