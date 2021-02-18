@@ -19,6 +19,12 @@ body p {
   justify-content: center;
 }
 
+#audio-captions {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
 /* **********************************************
 Basic mechanics
 Hide all paragraphs by default
@@ -152,89 +158,105 @@ Sounds.
   width: 450px;
   height: 250px;
   transition-duration: 42s;
-  transition-timing-function: ease-in;
+  transition-timing-function: cubic-bezier(.82, .19, .86, .56);
 }
 
 /* Maakt achtergrond donkerder */
 .sound12 {
   background-color: #626662;
   transition-duration: 41s;
-  transition-timing-function: ease-in;
+  transition-timing-function: cubic-bezier(.82, .19, .86, .56);
 }
 
-/*.sound12 #video-placeholder {
-  animation-duration: 0.2s;
+.sound12 #video-placeholder {
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound13 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
+/*
 .sound14 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound15 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound16 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound17 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound18 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound19 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound20 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound21 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound22 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound23 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound24 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound25 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 }
 
 .sound26 #video-placeholder {
-  animation-duration: 0.2s;
+  animation-duration: 0.05s;
   animation-name: click;
+  animation-fill-mode: backwards;
 } */
 .sound27 #video-placeholder {
   width: 600px;
@@ -249,15 +271,11 @@ Sounds.
 
 @keyframes click {
   from {
-    background-color: #DEDECA;
-  }
-
-  50% {
-    background-color: white;
+    box-shadow: 0 0 15px 10px #E13120;
   }
 
   to {
-    background-color: #DEDECA;
+    box-shadow: 0 0 0 0;
   }
 }
 
