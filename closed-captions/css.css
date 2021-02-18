@@ -95,66 +95,76 @@ Sounds.
   transition-duration: 0.5s;
 }
 
+.sound3 #video-placeholder {
+  box-shadow: 0 0 25px 5px #E13120;
+  transition-duration: 0.6s;
+}
+
 .sound4 #video-placeholder {
+  box-shadow: 0 0 0 0;
+  transition-duration: 0.5s;
+}
+
+.sound5 #video-placeholder {
   box-shadow: 0 0 15px 10px #E13120;
   transition-duration: 0.8s;
 }
 
-.sound5 #video-placeholder {
+.sound6 #video-placeholder {
   box-shadow: 0 0 0 0;
   transition: 1s 0.5s;
 }
 
 /* Verandering achtergrond */
-.sound6 {
+.sound7 {
   background-color: #A19E94;
   transition: 1s;
 }
 
-.sound6 p {
+.sound7 p {
   color: black;
 }
 
-.sound7 #video-placeholder {
+.sound8 #video-placeholder {
   box-shadow: 0 0 15px 10px #E13120;
   transition-duration: 0.8s;
 }
 
-.sound8 #video-placeholder {
+.sound9 #video-placeholder {
   box-shadow: 0 0 0 0;
   transition-duration: 1s;
 }
 
-.sound9 #video-placeholder {
+.sound10 #video-placeholder {
   box-shadow: 0 0 25px 20px #E13120;
   transition: 0.5s 0.8s;
 }
 
-.sound10 #video-placeholder {
+.sound11 #video-placeholder {
   box-shadow: 0 0 0 0;
   transition: 1.5s 1.1s;
 }
 
 /* Verandering achtergrond */
-.sound11 {
+.sound12 {
   background-color: #DEDECA;
   transition: 1s 1s;
 }
 
-.sound11 p {
+.sound12 p {
   color: black;
 }
 
-.sound11 .voice1 {
+.sound12 .voice1 {
   font-size: 1.30em;
 }
 
-.sound11 .voice2 {
+.sound12 .voice2 {
   font-size: 1.05em;
 }
 
 /* "Animatie" video kleiner maken */
-.sound11 #video-placeholder {
+.sound12 #video-placeholder {
   width: 450px;
   height: 250px;
   transition-duration: 42s;
@@ -162,16 +172,10 @@ Sounds.
 }
 
 /* Maakt achtergrond donkerder */
-.sound12 {
+.sound13 {
   background-color: #626662;
   transition-duration: 41s;
   transition-timing-function: cubic-bezier(.82, .19, .86, .56);
-}
-
-.sound12 #video-placeholder {
-  animation-duration: 0.05s;
-  animation-name: click;
-  animation-fill-mode: backwards;
 }
 
 .sound13 #video-placeholder {
@@ -258,13 +262,13 @@ Sounds.
   animation-name: click;
   animation-fill-mode: backwards;
 } */
-.sound27 #video-placeholder {
+.sound28 #video-placeholder {
   width: 600px;
   height: 400px;
   transition-duration: 1s;
 }
 
-.sound27 {
+.sound28 {
   background-color: #DEDECA;
   transition-duration: 1s;
 }
