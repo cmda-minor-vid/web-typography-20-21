@@ -75,6 +75,66 @@ Feel free to adjust the defaults to your needs.
   opacity: 0;
 }
 
+.p9.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p12.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p15.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p18.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p20.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p23.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p26.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p29.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p31.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p34.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p37.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p39.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p41.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p42.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
+.p43.off {
+  box-shadow: 0 0 40px 20px #000000;
+}
+
 .p45.on {
   box-shadow: 0 0 15px 10px #1EB738;
   transition-duration: 1s;
