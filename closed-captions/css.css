@@ -23,6 +23,7 @@ body p {
   display: flex;
   justify-content: center;
   opacity: 0;
+  margin-top: 30px;
 }
 
 /* **********************************************
@@ -90,8 +91,18 @@ Sounds.
   transition-duration: 0.5s;
 }
 
+.sound1 #audio-captions {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
 .sound2 #video-placeholder {
   box-shadow: 0 0 0 0;
+  transition-duration: 0.5s;
+}
+
+.sound2 #audio-captions {
+  opacity: 0;
   transition-duration: 0.5s;
 }
 
@@ -100,8 +111,18 @@ Sounds.
   transition-duration: 0.6s;
 }
 
+.sound3 #audio-captions {
+  opacity: 1;
+  transition-duration: 0.6s;
+}
+
 .sound4 #video-placeholder {
   box-shadow: 0 0 0 0;
+  transition-duration: 0.5s;
+}
+
+.sound4 #audio-captions {
+  opacity: 0;
   transition-duration: 0.5s;
 }
 
@@ -110,8 +131,18 @@ Sounds.
   transition-duration: 0.8s;
 }
 
+.sound5 #audio-captions {
+  opacity: 1;
+  transition-duration: 0.8s;
+}
+
 .sound6 #video-placeholder {
   box-shadow: 0 0 0 0;
+  transition: 1s 0.5s;
+}
+
+.sound6 #audio-captions {
+  opacity: 0;
   transition: 1s 0.5s;
 }
 
@@ -130,9 +161,19 @@ Sounds.
   transition-duration: 0.8s;
 }
 
+.sound8 #audio-captions {
+  opacity: 1;
+  transition-duration: 0.8s;
+}
+
 .sound9 #video-placeholder {
   box-shadow: 0 0 0 0;
   transition-duration: 1s;
+}
+
+.sound9 #audio-captions {
+  opacity: 0;
+  transition-duration: 0.1s;
 }
 
 .sound10 #video-placeholder {
@@ -140,8 +181,18 @@ Sounds.
   transition: 0.5s 0.8s;
 }
 
+.sound10 #audio-captions {
+  opacity: 1;
+  transition: 0.5s 0.8s;
+}
+
 .sound11 #video-placeholder {
   box-shadow: 0 0 0 0;
+  transition: 1.5s 1.1s;
+}
+
+.sound11 #audio-captions {
+  opacity: 0;
   transition: 1.5s 1.1s;
 }
 
@@ -265,12 +316,12 @@ Sounds.
 .sound28 #video-placeholder {
   width: 600px;
   height: 400px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .sound28 {
   background-color: #DEDECA;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 @keyframes click {
