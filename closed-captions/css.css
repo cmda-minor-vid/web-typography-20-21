@@ -229,13 +229,13 @@ Sounds.
   transition-timing-function: cubic-bezier(.82, .19, .86, .56);
 }
 
+/*
 .sound13 #video-placeholder {
   animation-duration: 0.05s;
   animation-name: click;
   animation-fill-mode: backwards;
 }
 
-/*
 .sound14 #video-placeholder {
   animation-duration: 0.05s;
   animation-name: click;
@@ -326,10 +326,10 @@ Sounds.
 
 @keyframes click {
   from {
-    box-shadow: 0 0 15px 10px #E13120;
+    box-shadow: 0 0 0 0;
   }
 
   to {
-    box-shadow: 0 0 0 0;
+    box-shadow: 0 0 15px 10px #E13120;
   }
 }
